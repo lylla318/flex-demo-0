@@ -1,0 +1,32 @@
+body {
+    font-size: 16px;
+    margin: 5%;
+}
+
+h1 {
+	text-align: center !important;
+}
+
+
+.grid-item {
+	background-color: #DDDDDD;
+	height: 200px;
+	margin: 2px;
+	margin-bottom: 2px;
+}
+
+
+
+
+@media(min-width:  681px) {
+
+	.grid-area {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.grid-item {
+		flex-basis: 30%; 
+	}
+}
